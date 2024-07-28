@@ -4,4 +4,7 @@ Faça um programa que leia a largura e altura de uma parede em metros, calcule s
 lar = float(input('Informe a largura da parede: '))
 alt = float(input('Informe a altura da parede: '))
 area = lar * alt
-print(f'A largura informada é {lar:.2f}m e a altura é {alt:.2f}m, logo a área da parede é {area:.2f}m². Serão necessários {area/2:.2f} l de tinta para pintar toda a parede.')
+print(f'Largura da parede: {lar:.2f}m')
+print(f'Altura da parede: {alt:.2f}m') 
+print(f'Aréa da parede: {area:.2f}m²')
+print(f'Serão necessários {area/2:.2f} l de tinta para pintar toda a parede.')
